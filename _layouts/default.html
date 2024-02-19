@@ -5,7 +5,21 @@
     <div class="container">
       {% include header.html %}
       <div class="content-wrapper">
-        {{ content }}
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <!-- Your sidebar content goes here -->
+          <h3>Sponsors</h3>
+          <div class="sponsor-images">
+            <a href="sponsor1-url"><img src="assets/img/artic-1.jpg" alt="Sponsor 1"></a>
+            <a href="sponsor2-url"><img src="assets/img/artic-2.jpg" alt="Sponsor 2"></a>
+            <!-- Add more sponsor images as needed -->
+          </div>
+        </aside>
+        
+        <!-- Main content -->
+        <main>
+          {{ content }}
+        </main>
       </div>
       {% include footer.html %}
     </div>
