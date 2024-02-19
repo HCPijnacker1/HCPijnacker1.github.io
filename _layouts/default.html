@@ -1,52 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        .sidebar {
-            width: 200px; /* Adjust the width as needed */
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-
-        .sponsor-images {
-            margin-top: 20px;
-        }
-
-        .sponsor-images a {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        .sponsor-images img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-    {% include header.html %}
-    <div class="content-wrapper">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <!-- Your sidebar content goes here -->
-            <h3>Sponsors</h3>
-            <div class="sponsor-images">
-                <a href="sponsor1-url"><img src="assets/img/artic-1.jpg" alt="Sponsor 1"></a>
-                <a href="sponsor2-url"><img src="assets/img/artic-2.jpg" alt="Sponsor 2"></a>
-                <!-- Add more sponsor images as needed -->
-            </div>
-        </aside>
-
-        <!-- Main content -->
-        <main>
-            {{ content }}
-        </main>
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
-</div>
-</body>
+  </body>
 </html>
