@@ -2,12 +2,17 @@
 layout: default
 title: Home
 ---
-# Welkom
-Welkom op deze site. Hier kun je alle informatie vinden over HC Pijnacker heren 1.
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<div class="page-content">
+  <h1>Welkom</h1>
+  <p>Welkom op deze site. Hier kun je alle informatie vinden over HC Pijnacker heren 1.</p>
+
+  {% for post in paginator.posts %}
+    <article>
+      {% include featured-post.html %}
+    </article>
+  {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
