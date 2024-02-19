@@ -1,7 +1,7 @@
 // Sidebar Styles
 
 .sidebar {
-  width: 200px; // Set sidebar width to 200px
+  width: 160px; // Set sidebar width to 200px
   position: fixed;
   top: 56px; // Adjust according to your header height
   bottom: 0;
@@ -20,7 +20,7 @@
   }
 
   .sponsor-images {
-    width: 80%; // Set width of sponsor images container to 80% of sidebar width
+    width: 90%; // Set width of sponsor images container to 90% of sidebar width
     max-width: 160px; // Set maximum width of sponsor images container to 160px
     display: flex; // Use flexbox for centering
     flex-direction: column; // Set flex direction to column
@@ -32,7 +32,7 @@
     }
 
     img {
-      max-width: 80%;
+      max-width: 90%;
       height: auto;
       max-height: 150px; // Adjust the maximum height as needed for your design
       display: block; // Ensure that images are displayed as blocks
