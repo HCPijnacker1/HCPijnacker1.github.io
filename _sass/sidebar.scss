@@ -1,0 +1,39 @@
+// Sidebar Styles
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  top: 56px; // Adjust according to your header height
+  bottom: 0;
+  background-color: white;
+  box-shadow: 0 5px 6px -6px #bbb;
+  z-index: 99; // Ensure it's behind the header
+  overflow-y: auto; // Allow scrolling if needed
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  .sponsor-images {
+    a {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// Responsiveness
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    top: 56px; // Adjust according to your header height
+  }
+}
