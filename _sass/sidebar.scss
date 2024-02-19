@@ -25,6 +25,8 @@
     img {
       max-width: 100%;
       height: auto;
+      max-height: 50px; // Adjust the maximum height as needed
+      display: block; // Ensure that images are displayed as blocks
     }
   }
 }
