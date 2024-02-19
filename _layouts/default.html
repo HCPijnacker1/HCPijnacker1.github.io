@@ -1,20 +1,20 @@
-<!doctype html>
-<html>
-  {% include head.html %}
-  <body>
-    <div class="container">
-      {% include header.html %}
-        <!-- Sidebar -->
-        <aside class="sidebar">
-          {% include sidebar.html %}
-        </aside>
-      <div class="content-wrapper">
-        <!-- Main content -->
-        <main>
-          {{ content }}
-        </main>
-      </div>
-      {% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %} <!-- Include your head content here -->
+</head>
+<body>
+  <div class="container">
+    {% include header.html %} <!-- Include your header content here -->
+    <div class="content-wrapper">
+      <aside class="sidebar">
+        {% include sidebar.html %} <!-- Include your sidebar content here -->
+      </aside>
+      <main class="main-content">
+        {{ content }} <!-- This is where your main content will be injected -->
+      </main>
     </div>
-  </body>
+    {% include footer.html %} <!-- Include your footer content here -->
+  </div>
+</body>
 </html>
