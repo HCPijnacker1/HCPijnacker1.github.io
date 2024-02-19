@@ -6,29 +6,48 @@
   width: $container-width;
   margin-left: auto;
   margin-right: auto;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
 }
+
 .container a {
   text-decoration: underline;
 }
-.content-wrapper {
-  padding-top: $header-thickness+10px;
-  margin: auto;
-  display: block;
-  width: calc(#(container-width - 220px));
+
+.header {
+  width: 100%; /* Ensure the header spans the container */
 }
+
+.content-wrapper {
+  padding-top: $header-thickness + 10px;
+  margin: auto;
+  display: flex; /* Use flexbox for layout */
+}
+
 .content-wrapper h1 {
   margin: 20px 0px 5px;
 }
+
+.main-content {
+  flex-grow: 1; /* Allow main content to grow and fill remaining space */
+}
+
+.sidebar {
+  width: 200px; /* Adjust the width of the sidebar */
+  background-color: #f0f0f0;
+}
+
+/* Adjustments for smaller screens */
 @media (max-width: $container-width) {
   .container {
-    width: calc(#(95vw-200px));
-    margin-left: auto;
-    margin-right: auto;
+    width: 95vw; /* Adjust container width for smaller screens */
   }
+
   .content-wrapper {
-    padding-top: $header-thickness+10px;
-    margin: auto;
-    display: block;
-    width: 95vw;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .main-content {
+    width: 100%; /* Full width for main content on smaller screens */
   }
 }
