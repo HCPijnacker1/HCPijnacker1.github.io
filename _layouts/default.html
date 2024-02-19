@@ -5,7 +5,13 @@
     <div class="container">
       {% include header.html %}
       <div class="content-wrapper">
-        {{ content }}
+        <!-- Sidebar -->
+        {% include sidebar.html %}
+
+        <!-- Main content -->
+        <main>
+          {{ content }}
+        </main>
       </div>
       {% include footer.html %}
     </div>
