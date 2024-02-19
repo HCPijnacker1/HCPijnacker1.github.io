@@ -14,14 +14,14 @@
   padding-top: $header-thickness+10px;
   margin: auto;
   display: block;
-  width: $container-width - 220px;
+  width: calc(#(container-width - 220px));
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
 }
-@media (max-width: $container-width-200) {
+@media (max-width: $container-width) {
   .container {
-    width: 95vw;
+    width: calc(#(95vw-200px));
     margin-left: auto;
     margin-right: auto;
   }
