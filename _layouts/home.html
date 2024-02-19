@@ -5,13 +5,12 @@ title: Home
 
 <div class="page-content">
   <h1>Welkom</h1>
-  <article>
   <p>Welkom op deze site. Hier kun je alle informatie vinden over HC Pijnacker heren 1.</p>
+</div>
+
   {% for post in paginator.posts %}
       {% include featured-post.html %}
   {% endfor %}
-  </article>
-</div>
 
 <!-- Pagination links -->
 <div class="pagination">
