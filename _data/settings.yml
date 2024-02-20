@@ -14,7 +14,7 @@ menu:
 - {name: 'Agenda',               url: 'agenda'}
 - {name: 'Team',                 url: 'team'}
 - {name: 'Aanmelden evenementen',      url: 'signup'}
-- {name: 'About',              url: 'about'}
+# - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
@@ -29,11 +29,11 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: 'Volgende pagina'
+  previous_page: 'Vorige pagina'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'Delen'
 
-related_posts: 'You may also enjoy...'
+related_posts: 'Misschien vind je dit ook leuk...'
 
 post_date_prefix: 'Written on'
