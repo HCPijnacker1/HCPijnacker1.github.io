@@ -5,6 +5,6 @@ permalink: /signup
 ---
 
 <div class="container">
-    <p>Vul onderstaand formulier in om contact met ons op te nemen.</p>
-    <form action="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe74T_zcHzfBG2nLSB8fwcKg7XeVqT3Xl3F-EmLL1oszCu7Ng/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>" method="POST">
+    <p>Vul onderstaand formulier in om je aan te melden voor het volgende evenement.</p>
+    <form action="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfi3LdOgcO9nmrYV1N6i5INrbBgb1y4JF9xDtCwj2uYhxDMbg/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>" method="POST">
 </div>
