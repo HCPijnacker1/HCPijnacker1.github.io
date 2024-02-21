@@ -1,41 +1,41 @@
 // Sidebar Styles
 
 .sidebar {
-  width: 160px; // Set sidebar width to 200px
-  position: fixed;
-  top: 56px; // Adjust according to your header height
-  bottom: 0;
-  background-color: white;
-  box-shadow: 0 5px 6px -6px #bbb;
-  z-index: 99; // Ensure it's behind the header
-  overflow-y: auto; // Allow scrolling if needed
-  display: flex; // Use flexbox for centering
-  flex-direction: column; // Set flex direction to column
+  width: 160px; // Set sidebar width to 160px
+  position: fixed; // Fix the position of the sidebar
+  top: 56px; // Adjust the top position according to your header height
+  bottom: 0; // Align the sidebar to the bottom of the viewport
+  background-color: white; // Set the background color of the sidebar
+  box-shadow: 0 5px 6px -6px #bbb; // Apply a box shadow to the sidebar
+  z-index: 99; // Ensure the sidebar is behind the header
+  overflow-y: auto; // Allow vertical scrolling if needed
+  display: flex; // Use flexbox for layout
+  flex-direction: column; // Arrange items vertically
   align-items: center; // Center items horizontally
 
   h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px;
+    font-size: 18px; // Set the font size for h3 elements
+    font-weight: bold; // Apply bold font weight to h3 elements
+    margin: 10px; // Set margin around h3 elements
   }
 
   .sponsor-images {
     width: 90%; // Set width of sponsor images container to 90% of sidebar width
     max-width: 160px; // Set maximum width of sponsor images container to 160px
-    display: flex; // Use flexbox for centering
-    flex-direction: column; // Set flex direction to column
+    display: flex; // Use flexbox for layout
+    flex-direction: column; // Arrange items vertically
     align-items: center; // Center items horizontally
 
     a {
-      display: block;
-      margin-bottom: 10px;
+      display: block; // Display anchor elements as blocks
+      margin-bottom: 10px; // Add margin below each anchor element
     }
 
     img {
-      max-width: 90%;
-      height: auto;
-      max-height: 150px; // Adjust the maximum height as needed for your design
-      display: block; // Ensure that images are displayed as blocks
+      max-width: 90%; // Set maximum width of images to 90% of container width
+      height: auto; // Allow images to adjust their height automatically
+      max-height: 150px; // Set maximum height of images to 150px
+      display: block; // Display images as blocks
     }
   }
 }
@@ -43,8 +43,8 @@
 // Responsiveness
 @media (max-width: 180px) {
   .sidebar {
-    width: 100%;
-    height: auto;
-    top: 56px; // Adjust according to your header height
+    width: 100%; // Set sidebar width to 100% when viewport width is 180px or less
+    height: auto; // Allow the sidebar height to adjust automatically
+    top: 56px; // Adjust the top position according to your header height
   }
 }
