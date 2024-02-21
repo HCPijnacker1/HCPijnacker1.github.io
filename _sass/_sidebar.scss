@@ -48,4 +48,7 @@
     height: auto; // Allow the sidebar height to adjust automatically
     top: 56px; // Adjust the top position according to your header height
   }
+   h3 {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
 }
