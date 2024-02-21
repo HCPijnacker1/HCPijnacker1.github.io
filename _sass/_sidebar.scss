@@ -1,7 +1,7 @@
 // Sidebar Styles
+
 .sidebar {
-  width: 20%; // Set sidebar width to 20% of the page width
-  max-width: 160px; // Set maximum width of the sidebar to 160px
+  width: 160px; // Set sidebar width to 160px
   position: fixed; // Fix the position of the sidebar
   top: 56px; // Adjust the top position according to your header height
   bottom: 0; // Align the sidebar to the bottom of the viewport
@@ -41,10 +41,9 @@
 }
 
 // Responsiveness
-@media (max-width: 900px) {
+@media (max-width: 180px) {
   .sidebar {
-    width: 20vw; // Set sidebar width to 20% of the page width
-    max-width: 160px; // Set maximum width of the sidebar to 160px
+    width: 100%; // Set sidebar width to 100% when viewport width is 180px or less
     height: auto; // Allow the sidebar height to adjust automatically
     top: 56px; // Adjust the top position according to your header height
   }
