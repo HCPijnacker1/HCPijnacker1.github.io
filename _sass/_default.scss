@@ -1,4 +1,4 @@
-vw/*
+/*
   Site container
 */
 
@@ -13,24 +13,22 @@ vw/*
 .content-wrapper {
   padding-top: $header-thickness+10px;
   margin: auto;
-  margin-left: 25%;
   display: block;
-  width: calc(#{$container-width}-35%);
+  width: calc(#(container-width - 180px));
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
 }
 @media (max-width: $container-width) {
   .container {
-    width: 100vw;
+    width: calc(#(95vw-160px));
     margin-left: auto;
     margin-right: auto;
   }
   .content-wrapper {
     padding-top: $header-thickness+10px;
     margin: auto;
-    margin-left: 25%;
     display: block;
-    width: calc(#{container-width}-35%);
+    width: 95vw;
   }
 }
