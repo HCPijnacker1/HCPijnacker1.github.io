@@ -3,7 +3,7 @@
 .sidebar {
   width: 20%;
   max-width: 160px; // Set sidebar width to 160px
-  position: fixed; // Fix the position of the sidebar
+  position: sticky; // Fix the position of the sidebar
   top: 56px; // Adjust the top position according to your header height
   bottom: 0; // Align the sidebar to the bottom of the viewport
   background-color: white; // Set the background color of the sidebar
