@@ -11,7 +11,9 @@
   text-decoration: underline;
 }
 .content-wrapper {
-  padding-top: $header-thickness+10px;
+  position: fixed
+  top: $header-thickness+10px;
+  left: $sidebar-width+5px;
   margin: auto;
   display: block;
   width: calc(#{$container-width} - {$sidebar-width});
