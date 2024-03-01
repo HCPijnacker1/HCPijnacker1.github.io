@@ -13,8 +13,9 @@
 .content-wrapper {
   padding-top: $header-thickness+10px;
   margin: auto;
+  margin-left: 25%;
   display: block;
-  width: calc(#{$container-width} - 25%);
+  width: calc(#{$container-width} - 30%);
 }
 .content-wrapper h1 {
   margin: 20px 20vw 5px;
@@ -28,7 +29,8 @@
   .content-wrapper {
     padding-top: $header-thickness+10px;
     margin: auto;
+    margin-left: 25%;
     display: block;
-    width: calc(#{$container-width} - 25%);
+    width: calc(#{$container-width} - 30%);
   }
 }
