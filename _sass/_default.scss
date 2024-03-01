@@ -15,7 +15,7 @@
   margin: auto;
   margin-left: 5%;
   display: block;
-  width: calc(#{$container-width} - 30%);
+  width: calc(#{$container-width} - 30vw);
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
@@ -31,6 +31,6 @@
     margin: auto;
     margin-left: 5%;
     display: block;
-    width: calc(#{$container-width} - 30%);
+    width: calc(#{$container-width} - 30vw);
   }
 }
