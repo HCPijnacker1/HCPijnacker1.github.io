@@ -1,7 +1,7 @@
 // Sidebar Styles
 
 .sidebar {
-  width: 20%;
+  width: $sidebar-width;
   max-width: 160px; // Set sidebar width to 160px
   position: fixed; // Fix the position of the sidebar
   top: 56px; // Adjust the top position according to your header height
