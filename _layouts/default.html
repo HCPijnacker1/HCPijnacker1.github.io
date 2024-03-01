@@ -5,12 +5,12 @@
     <div class="container">
       {% include header.html %}
       <div class="content-wrapper">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-          {% include sidebar.html %}
-        </aside>
         <!-- Main content -->
         <main>
+          <!-- Sidebar -->
+          <aside class="sidebar">
+            {% include sidebar.html %}
+          </aside>
           {{ content }}
         </main>
         {% include footer.html %}
