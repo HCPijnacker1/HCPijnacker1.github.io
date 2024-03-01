@@ -4,13 +4,13 @@
   <body>
     <div class="container">
       {% include header.html %}
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        {% include sidebar.html %}
+      </aside>
       <div class="content-wrapper">
         <!-- Main content -->
         <main>
-          <!-- Sidebar -->
-          <aside class="sidebar">
-            {% include sidebar.html %}
-          </aside>
           {{ content }}
         </main>
         {% include footer.html %}
