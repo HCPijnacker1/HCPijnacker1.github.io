@@ -9,7 +9,7 @@
   background-color: white; // Set the background color of the sidebar
   box-shadow: 0 5px 6px -6px #bbb; // Apply a box shadow to the sidebar
   z-index: 99; // Ensure the sidebar is behind the header
-  overflow-y: auto; // Allow vertical scrolling if needed
+  //overflow-y: auto; // Allow vertical scrolling if needed
   display: flex; // Use flexbox for layout
   flex-direction: column; // Arrange items vertically
   align-items: center; // Center items horizontally
