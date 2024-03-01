@@ -3,7 +3,7 @@
 .sidebar {
   width: $sidebar-width; // $sidebar-width:20%; defined in other file
   max-width: 160px; // Set sidebar width to 160px
-  position: fixed; // Fix the position of the sidebar
+  position: sticky; // Fix the position of the sidebar
   top: 56px; // Adjust the top position according to your header height
   background-color: white; // Set the background color of the sidebar
   box-shadow: 0 5px 6px -6px #bbb; // Apply a box shadow to the sidebar
