@@ -4,21 +4,21 @@
   text-align: center;
   min-height: 56px;
   line-height: 45px;
-  width: calc(#{$container-width} - 30%);
+  width: 70vw;
 }
 .footer a {
   color: $brand-color;
   padding: 0px 10px 0px;
   text-decoration: none;
 }
-@media (max-width: width: calc(#{$container-width} - 31%);) {
+@media (max-width: $container-width) {
   .footer {
     background: white;
     color: $brand-color;
     text-align: center;
     min-height: 56px;
     line-height: 45px;
-    width: calc(#{$container-width} - 50%);
+    width: 70vw;
   }
 }
 .footer-description {
