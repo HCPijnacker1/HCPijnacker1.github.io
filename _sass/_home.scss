@@ -1,5 +1,5 @@
 .featured-post {
-  height: 200px;
+  height: calc(200px - 11000px / #{$container-width});
   margin: 5px 10px 10px;
   background-position: center;
   background-repeat: no-repeat;
