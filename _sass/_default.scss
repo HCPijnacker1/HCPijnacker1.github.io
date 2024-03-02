@@ -13,9 +13,9 @@
 .content-wrapper {
   padding-top: $header-thickness + 10px;
   margin: auto;
-  margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
+  margin-left: calc(#{$sidebar-width} + 10px); /* Adjusted margin-left */
   display: block;
-  width: calc(95vw - #{$sidebar-width} - 20px); /* Adjusted width */
+  width: calc(95vw - #{$sidebar-width} - 10px); /* Adjusted width */
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
@@ -29,8 +29,8 @@
   .content-wrapper {
     padding-top: $header-thickness + 10px;
     margin: auto;
-    margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
+    margin-left: calc(#{$sidebar-width} + 10px); /* Adjusted margin-left */
     display: block;
-    width: calc(95vw - #{$sidebar-width} - 20px); /* Adjusted width */
+    width: calc(95vw - #{$sidebar-width} - 10px); /* Adjusted width */
   }
 }
