@@ -14,7 +14,7 @@
   padding-top: $header-thickness+10px;
   margin: auto;
   display: block;
-  width: calc(#(container-width - 25%));
+  width: calc(#(container-width - 35%));
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
@@ -29,6 +29,6 @@
     padding-top: $header-thickness+10px;
     margin: auto;
     display: block;
-    width: calc(#(container-width - 25%));
+    width: calc(#(container-width - 35%));
   }
 }
