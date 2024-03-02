@@ -13,6 +13,7 @@
 .content-wrapper {
   padding-top: $header-thickness+10px;
   margin: auto;
+  padding-left: $sidebar-width+5px;
   display: block;
   width: calc(#(container-width - 35%));
 }
