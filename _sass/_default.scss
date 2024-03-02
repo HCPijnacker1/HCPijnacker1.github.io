@@ -15,7 +15,7 @@
   margin: auto;
   margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
   display: block;
-  width: calc(75vw - #{$sidebar-width} - 20px); /* Adjusted width */
+  width: calc(95vw - #{$sidebar-width} - 20px); /* Adjusted width */
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
@@ -31,6 +31,6 @@
     margin: auto;
     margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
     display: block;
-    width: calc(75vw - #{$sidebar-width} - 20px); /* Adjusted width */
+    width: calc(95vw - #{$sidebar-width} - 20px); /* Adjusted width */
   }
 }
