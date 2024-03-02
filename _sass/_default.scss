@@ -11,10 +11,11 @@
   text-decoration: underline;
 }
 .content-wrapper {
-  padding-top: $header-thickness+10px;
-  margin: auto 25vw;
+  padding-top: $header-thickness + 10px;
+  margin: auto;
+  margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
   display: block;
-  width: 75vw
+  width: calc(75vw - #{$sidebar-width} - 20px); /* Adjusted width */
 }
 .content-wrapper h1 {
   margin: 20px 0px 5px;
@@ -26,9 +27,10 @@
     margin-right: auto;
   }
   .content-wrapper {
-    padding-top: $header-thickness+10px;
-    margin: auto 25vw;
+    padding-top: $header-thickness + 10px;
+    margin: auto;
+    margin-left: calc(#{$sidebar-width} + 20px); /* Adjusted margin-left */
     display: block;
-    width: 75vw
+    width: calc(75vw - #{$sidebar-width} - 20px); /* Adjusted width */
   }
 }
