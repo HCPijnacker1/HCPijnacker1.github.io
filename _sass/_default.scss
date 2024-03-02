@@ -15,7 +15,7 @@
 .content-wrapper {
   padding-top: $header-thickness + 10px;
   margin: auto;
-  margin-left: calc(min(#{$sidebar-width} + 10px, 180px)); /* Adjusted margin-left */
+  margin-left: calc(min(#{$sidebar-width} + 10px, 160px)); /* Adjusted margin-left */
   display: block;
   width: calc(95vw - #{$sidebar-width} - 10px); /* Adjusted width */
 }
@@ -34,7 +34,7 @@
   .content-wrapper {
     padding-top: $header-thickness + 10px;
     margin: auto;
-    margin-left: calc(min(#{$sidebar-width} + 10px, 180px)); /* Adjusted margin-left */
+    margin-left: calc(min(#{$sidebar-width} + 10px, 160px)); /* Adjusted margin-left */
     display: block;
     width: calc(95vw - #{$sidebar-width} - 10px); /* Adjusted width */
   }
