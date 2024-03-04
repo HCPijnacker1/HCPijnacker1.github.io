@@ -1,12 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Aanmelden Evenementen"
-author: "Robert Wetzels"
-categories: sample
-tags: [documentaion,sample]
-image: cuba-1.jpg
 ---
-# Aanmelden
 
 <div class="container">
     <p>Vul onderstaand formulier in om je aan te melden voor het volgende evenement.</p>
