@@ -3,9 +3,10 @@ layout: post
 title: "Aanmelden Evenementen"
 author: "Robert Wetzels"
 categories: sample
-tags: [sample]
-image: arctic-1.jpg
+tags: [documentaion,sample]
+image: cuba-1.jpg
 ---
+# Aanmelden
 
 <div class="container">
     <p>Vul onderstaand formulier in om je aan te melden voor het volgende evenement.</p>
