@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Aanmelden Evenementen
-permalink: /signup
+title: "Aanmelden Evenementen"
+author: "Robert Wetzels"
+categories: sample
+tags: [sample]
+image: arctic-1.jpg
 ---
 
 <div class="container">
