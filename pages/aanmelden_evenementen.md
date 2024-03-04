@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Aanmelden Evenementen"
+title: Aanmelden Evenementen
+permalink: /signup
 ---
 
 <div class="container">
