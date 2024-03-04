@@ -6,5 +6,5 @@ permalink: /contact
 
 <div class="container">
     <p>Vul onderstaand formulier in om contact met ons op te nemen.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe74T_zcHzfBG2nLSB8fwcKg7XeVqT3Xl3F-EmLL1oszCu7Ng/viewform?embedded=true" width="75%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe74T_zcHzfBG2nLSB8fwcKg7XeVqT3Xl3F-EmLL1oszCu7Ng/viewform?embedded=true" width="75%" height="100%" frameborder="none" marginheight="0" marginwidth="0" scrolling="no">Laden…</iframe>
 </div>
