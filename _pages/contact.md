@@ -2,7 +2,6 @@
 layout: page
 title: Contact
 permalink: /contact
-image: cuba-2.jpg
 ---
 
 <div class="container">
