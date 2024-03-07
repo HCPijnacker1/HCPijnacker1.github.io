@@ -8,7 +8,8 @@ title: Home
   <p>Welkom op deze site. Hier kun je alle informatie vinden over HC Pijnacker heren 1.</p>
 
   {% for post in paginator.posts %}
-      {% include featured-post.html %}
+      {% assign page_url = site.github.url | append: post.url %}
+      {% include featured-post.html page_url=page_url title=post.title image=post.image %}
   {% endfor %}
 </div>
 
