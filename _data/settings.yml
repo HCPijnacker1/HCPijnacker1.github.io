@@ -13,7 +13,7 @@ menu:
 # - {name: 'Documentation',      url: 'documentation'}
 - {name: 'Agenda',               url: 'agenda'}
 - {name: 'Team',                 url: 'team'}
-- {name: 'Aanmelden evenementen',      url: 'signup'}
+- {name: 'Aanmelden evenementen',      url: 'aanmelden-evenementen'}
 # - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
 
