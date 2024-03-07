@@ -1,9 +1,7 @@
 ---
-layout: post
-title: "Aanmelden Evenementen"
-author: "Robert Wetzels"
-categories: facts
-tags: [sample]
+layout: page
+title: Aanmelden Evenementen
+permalink: /aanmelden-evenementen
 image: cuba-2.jpg
 ---
 
