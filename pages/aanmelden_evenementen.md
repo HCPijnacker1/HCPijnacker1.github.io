@@ -2,7 +2,6 @@
 layout: page
 title: Aanmelden Evenementen
 permalink: /aanmelden-evenementen
-image: cuba-2.jpg
 ---
 
 <div class="container">
